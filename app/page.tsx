@@ -121,7 +121,7 @@ export default function Home() {
               About me
             </h2>
             <h3 id="about-title" className="mt-3 text-2xl font-semibold text-slate-950">
-              A thoughtful developer who enjoys turning ideas into usable experiences.
+              A thoughtful developer who enjoys turning ideas into full-fledged applications.
             </h3>
             <p className="mt-4 text-base leading-8 text-slate-800">
               My background spans coursework in computer science, web development, cybersecurity, and UI design. I’ve worked on academic projects that required both strong technical implementation and careful communication, and I’m especially interested in building accessible interfaces that feel intuitive from the first interaction.
@@ -150,7 +150,7 @@ export default function Home() {
             Skills
           </h2>
           <p id="skills-title" className="mt-2 text-2xl font-semibold text-slate-950">
-            Core strengths for building thoughtful digital experiences.
+            Core strengths for building engaging digital experiences.
           </p>
           <div className="mt-6 grid gap-4 md:grid-cols-3">
             {skills.map((skillGroup) => (
@@ -214,7 +214,7 @@ export default function Home() {
               Experience
             </h2>
             <p id="experience-title" className="mt-2 text-2xl font-semibold text-slate-950">
-              Building practical experience through accessibility and team collaboration.
+              Building on theory with practical experience in diverse teams.
             </p>
           </div>
 
