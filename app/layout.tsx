@@ -13,9 +13,17 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Anastasia Davis | Front-End Developer Portfolio",
+  title: "Anastasia Davis | Developer Portfolio",
   description:
     "Portfolio for Anastasia Davis, a recent computer science graduate focused on front-end development, accessible web experiences, and thoughtful design.",
+  icons: {
+    icon: [
+      { url: "/light-mode-icon.png", media: "(prefers-color-scheme: light)" },
+      { url: "/dark-mode-icon.png", media: "(prefers-color-scheme: dark)" },
+    ],
+    shortcut: "/light-mode-icon.png",
+    apple: "/light-mode-icon.png",
+  },
 };
 
 export default function RootLayout({
