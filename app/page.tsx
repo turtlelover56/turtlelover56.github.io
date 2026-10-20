@@ -30,8 +30,8 @@ const featuredProjects = [
 
 const skills = [
   { title: "Languages", items: ["Java", "Python", "HTML/CSS", "JavaScript", "TypeScript"] },
-  { title: "Front-end", items: ["React.js", "Next.js", "Tailwind CSS", "Figma", "Canva"] },
-  { title: "Tools", items: ["Git/GitHub", "Unity", "Microsoft Office", "Google Suite", "AI Coding Agents"] },
+  { title: "Front-end", items: ["React", "Next.js", "Tailwind CSS", "Figma", "Canva"] },
+  { title: "Tools", items: ["Git", "GitHub", "GitHub Copilot", "Unity", "Adobe Acrobat"] },
 ];
 
 const experience = [
